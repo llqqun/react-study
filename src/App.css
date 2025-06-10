@@ -254,3 +254,20 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+
+.api-demo {
+  padding: 20px;
+}
+
+.api-demo section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.api-demo h2 {
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}

@@ -14,6 +14,7 @@ const Layout = () => {
           <li><Link to="/router">路由与状态管理</Link></li>
           <li><Link to="/configuration">React框架配置</Link></li>
           <li><Link to="/todo">Todo应用</Link></li>
+          <li><Link to="/api">React API详解</Link></li>
         </ul>
       </nav>
       <main className="content">

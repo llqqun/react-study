@@ -8,6 +8,7 @@ import HooksDemo from '../components/advanced/HooksDemo';
 import RouterDemo from '../components/advanced/RouterDemo';
 import ConfigurationDemo from '../components/advanced/ConfigurationDemo';
 import TodoApp from '../components/projects/TodoApp';
+import APIDemo from '../components/advanced/APIDemo';
 // 布局组件
 import Layout from './layout';
 function Home() {
@@ -75,6 +76,11 @@ const routes = [
         path: '/todo',
         element: <TodoApp />,
         name: 'Todo应用'
+      },
+      {
+        path: '/api',
+        element: <APIDemo />,
+        name: 'React API详解'
       }
     ]
   }
